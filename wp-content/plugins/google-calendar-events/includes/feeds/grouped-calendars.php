@@ -161,7 +161,7 @@ class Grouped_Calendars extends Feed {
 		}
 	
 		// Sort events by start time before returning
-		uasort( $events, array( $this, 'sort_by_start_time' ) );
+		// uasort( $events, array( $this, 'sort_by_start_time' ) );
 
 		return $events;
 	}
